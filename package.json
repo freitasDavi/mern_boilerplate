@@ -4,7 +4,8 @@
   "description": "react, express, mongo and node",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "backend": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -25,7 +26,12 @@
   },
   "homepage": "https://github.com/freitasDavi/mern_boilerplate#readme",
   "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
     "express": "^4.17.1",
     "mongoose": "^5.10.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   }
 }
