@@ -5,11 +5,10 @@ const bodyParser = require("body-parser");
 const cookieParser = require("cookie-parser");
 const { User } = require("./models/user");
 
+const config = require("./config/key");
+
 mongoose
-  .connect(
-    "mongodb+srv://tekunin:Qwert159@react-blog.qqghu.mongodb.net/React-blog?retryWrites=true&w=majority",
-    { useNewUrlParser: true, useUnifiedTopology: true }
-  )
+  .connect(config.mongoURI, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => console.log("DB connected"))
   .catch((err) => console.error(err));
 
