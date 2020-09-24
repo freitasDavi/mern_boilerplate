@@ -1,0 +1,31 @@
+{
+  "name": "boilerplate",
+  "version": "1.0.0",
+  "description": "react, express, mongo and node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/freitasDavi/mern_boilerplate.git"
+  },
+  "keywords": [
+    "Boilerplate",
+    "mongo",
+    "db",
+    "node",
+    "express",
+    "react"
+  ],
+  "author": "Davi Freitas da Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/freitasDavi/mern_boilerplate/issues"
+  },
+  "homepage": "https://github.com/freitasDavi/mern_boilerplate#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.6"
+  }
+}
